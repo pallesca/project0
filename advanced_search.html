@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Search</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- NAV -->
+	<nav>
+		<ul id="nav_bar">
+			<li class="nav-links" id="homepage"> <a href="index.html">Go Back</a></li>
+		</ul>  
+	</nav>  
+	<h1 style="color:red; text-align: left;">Advanced Search</h1>
+	<h2 style="color:black; text-align: left;">Find Pages with...</h2>
+	<!-- FORM -->
+	<div id="advanced_form">
+		<form action="/search" method="GET" name="F" _lpchecked="1">
+			<div class="advanced_form_input">
+			<div>
+				<label for="all these words:">all these words:</label>
+				<input type="text" name="all these words:">
+			</div>
+			<div>
+				<label for="this exact word or phrase:"> this exact word or phrase:</label>
+				<input type="text" name="this exact word or phrase:">
+			</div>
+			<div>
+				<label for="any of these words:"> any of these words:</label>
+				<input type="text" name="any of these words:">
+			</div>
+			<div>
+				<label for"all these words:"> all these words:</label>
+				<input type="text" name="all these words:">
+			</div></div>
+		</form>
+		<!-- BUTTON -->
+		<div class="advanced_button">
+			<button type="button" class="btn btn-primary">Advanced Search</button>
+		</div>
+	</div>
+</body>
+</html>
